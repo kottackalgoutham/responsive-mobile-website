@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" type="text/css" title="kot" href="kot.css">
+ <script src="kot.js"></script>
+<style>
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.ui-bar-f {
+    color: white;
+    background-color: orange;
+  
+    }
+  .ui-body-f {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+  }
+  .ui-page-theme-f {
+    font-weight: bold;
+    background-color: white;
+  }
+</style>
+</head>
+<body>
+
+<div data-role="page" id="pageone" data-theme="f">
+  <div data-role="panel" id="myPanel" data-theme="b"> 
+    <h2>KOTTACKAL</h2>
+     <ul data-role="listview">
+      <li><a href="#about" >ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#work">WORK</a></li>
+       
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    
+  </div> 
+
+  <div data-role="header" data-theme="f">
+  <a href="#myPanel" class="ui-btn ui-btn-b ui-btn-inline ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">HOME</a>
+    <h1 style="color: white"><a href="#pageone">KOTTACKAL BUSSINESS SOLUTIONS</a></h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#apply" data-icon="home" data-theme="a">APPLY ONLINE</a></li>
+       
+        <li><a href="#contact" data-icon="search" data-theme="a">CONTACT US</a></li>
+      </ul>
+    </div>   
+  </div>
+
+  <div data-role="main" class="ui-content ui-body-f ">
+  
+     <h4>Kottackal Business Solutions Pvt. Ltd. is a cross industry consultancy based in India / Switzerland, bringing innovation to Internet and Business consulting. Our consultants have provided professional solutions in Business Consulting, Global Business Processes in Asia (India, Singapore, and Japan), Switzerland and the US.</h4><br>
+     
+
+      <p style="color: red">We are currently focusing on projects in India especially projects with cross border mandate. Our network of associates live and work in major cities in India and Switzerland.
+</p>
+<h4> You bring the Product Idea and we will bring the rest !!
+</h4>
+<img src="2.jpg" alt="BITCOIN" width="200" height="200">
+
+
+   <br> <br><br><br><br>
+   
+  </div>
+
+  <div data-role="footer" data-theme="f">
+    <h1>BUSSINESS CONSULTANTS</h1>
+     <p style="margin-left: 250px"><span class="copyright-text">©2017 KOTTACKAL BUSSINESS SOLUTIONS PVT LTD. All Rights Reserved.</span>
+                    <a href="https://www.kottackal.com" title="KOTTACKAL">www.kottackal.com</a></p>
+  </div> 
+</div> 
+
+<!-- applyonline -->
+
+
+<div data-role="page" id="apply" data-theme="f">
+  <div data-role="panel" id="myPanel" data-theme="b"> 
+    <h2>KOTTACKAL</h2>
+     <ul data-role="listview">
+      <li><a href="#about" >ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#work">WORK</a></li>
+       
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    
+  </div> 
+
+  <div data-role="header" data-theme="f">
+  <a href="#myPanel" class="ui-btn ui-btn-b ui-btn-inline ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">HOME</a>
+    <h1 style="color: white"><a href="#pageone">KOTTACKAL BUSSINESS SOLUTIONS</a></h1>
+    
+  </div>
+
+  <div data-role="main" class="ui-content ui-body-f ">
+  
+     <div data-role="main" class="ui-content">
+  <form method="post" action="/action_page_post.php">
+  <div class="ui-fieldcontain">
+    <label for="name">Full Name:</label>
+    <input type="text" name="text" id="name" placeholder="Your name.." data-theme="b">
+    <br><br>
+
+    <div data-role="controlgroup">
+      <legend>Qualificatins</legend>
+      <label for="mov1">MTECH</label>
+        <input type="checkbox" name="mov1" id="mov1" data-theme="a">
+      <label for="mov2">BTECH/MCA</label>
+        <input type="checkbox" name="mov2" id="mov2" data-theme="a">
+        
+    </div>
+  
+     <label for="name">Email id</label>
+     <input class="form-control" id="email" name="email" placeholder="Email" type="text" >
+    <br><br>
+ 
+    <label for="colors">GENDER</label>
+    <select id="colors" name="colors" data-theme="b">
+      <option value="red">Male</option>
+      <option value="green">Female</option>
+     
+    </select>
+    <br><br>
+ 
+     
+     <button class="ui-btn ui-btn-b ui-btn-inline ui-corner-all" type="submit">Send</button>
+       
+     <br><br>
+  
+
+  </div>
+  </form>
+  </div>
+   
+  </div>
+
+  <div data-role="footer" data-theme="f">
+    <h1>BUSSINESS CONSULTANTS</h1>
+     <p style="margin-left: 250px"><span class="copyright-text">©2017 KOTTACKAL BUSSINESS SOLUTIONS PVT LTD. All Rights Reserved.</span>
+                    <a href="https://www.kottackal.com" title="KOTTACKAL">www.kottackal.com</a></p>
+  </div> 
+</div> 
+
+<!-- contacform -->
+
+<div data-role="page" id="contact" data-theme="f">
+  <div data-role="panel" id="myPanel" data-theme="b"> 
+    <h2>KOTTACKAL</h2>
+     <ul data-role="listview">
+      <li><a href="#about" >ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#work">WORK</a></li>
+       
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    
+  </div> 
+
+  <div data-role="header" data-theme="f">
+  <a href="#myPanel" class="ui-btn ui-btn-b ui-btn-inline ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">HOME</a>
+    <h1 style="color: white"><a href="#pageone">KOTTACKAL BUSSINESS SOLUTIONS</a></h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#" data-icon="home" data-theme="a">APPLY ONLINE</a></li>
+       
+        <li><a href="#" data-icon="search" data-theme="a">CONTACT US</a></li>
+      </ul>
+    </div>   
+  </div>
+
+  <div data-role="main" class="ui-content ui-body-f ">
+  
+     <div data-role="main" class="ui-content">
+  <div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Technopark, Tvm.</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 91-9447763144</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>  jninank@gmail.com</p>
+    </div>
+   
+  </div>
+</div>
+
+  </div>
+   
+  </div>
+
+  <div data-role="footer" data-theme="f">
+    <h1>BUSSINESS CONSULTANTS</h1>
+     <p style="margin-left: 250px"><span class="copyright-text">©2017 KOTTACKAL BUSSINESS SOLUTIONS PVT LTD. All Rights Reserved.</span>
+                    <a href="https://www.kottackal.com" title="KOTTACKAL">www.kottackal.com</a></p>
+  </div> 
+</div> 
+
+
+<!--about -->
+
+
+<div data-role="page" id="about" data-theme="f">
+  <div data-role="panel" id="myPanel" data-theme="b"> 
+    <h2>KOTTACKAL</h2>
+     <ul data-role="listview">
+      <li><a href="#about" >ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#work">WORK</a></li>
+       
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    
+  </div> 
+
+  <div data-role="header" data-theme="f">
+  <a href="#myPanel" class="ui-btn ui-btn-b ui-btn-inline ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">HOME</a>
+    <h1 style="color: white"><a href="#pageone">KOTTACKAL BUSSINESS SOLUTIONS</a></h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#apply" data-icon="home" data-theme="a">APPLY ONLINE</a></li>
+       
+        <li><a href="#contact" data-icon="search" data-theme="a">CONTACT US</a></li>
+      </ul>
+    </div>   
+  </div>
+
+  <div data-role="main" class="ui-content ui-body-f ">
+  
+     <div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Values</h2><br>
+      <h4> We provide personalized service and a customer-focused strategy for taking ideas to products for the web. We design product experiences that combine the art of traditional product development with technologies in web, mobile and animation.</h4><br>
+      <p> We help you build your online products. We help you Innovate. We help you Grow.</p>
+    </div>
+  </div>
+</div>
+<img src="2.jpg" alt="BITCOIN" width="200" height="200">
+
+
+   <br> <br><br><br><br>
+   
+  </div>
+
+  <div data-role="footer" data-theme="f">
+    <h1>BUSSINESS CONSULTANTS</h1>
+     <p style="margin-left: 250px"><span class="copyright-text">©2017 KOTTACKAL BUSSINESS SOLUTIONS PVT LTD. All Rights Reserved.</span>
+                    <a href="https://www.kottackal.com" title="KOTTACKAL">www.kottackal.com</a></p>
+  </div> 
+</div> 
+
+
+<!--services-->
+
+
+
+<div data-role="page" id="services" data-theme="f">
+  <div data-role="panel" id="myPanel" data-theme="b"> 
+    <h2>KOTTACKAL</h2>
+     <ul data-role="listview">
+      <li><a href="#about" >ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#work">WORK</a></li>
+       
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    
+  </div> 
+
+  <div data-role="header" data-theme="f">
+  <a href="#myPanel" class="ui-btn ui-btn-b ui-btn-inline ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">HOME</a>
+    <h1 style="color: white"><a href="#pageone">KOTTACKAL BUSSINESS SOLUTIONS</a></h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#apply" data-icon="home" data-theme="a">APPLY ONLINE</a></li>
+       
+        <li><a href="#contact" data-icon="search" data-theme="a">CONTACT US</a></li>
+      </ul>
+    </div>   
+  </div>
+
+  <div data-role="main" class="ui-content ui-body-f ">
+  
+     <div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Values</h2><br>
+      <h4> We provide personalized service and a customer-focused strategy for taking ideas to products for the web. We design product experiences that combine the art of traditional product development with technologies in web, mobile and animation.</h4><br>
+      <p> We help you build your online products. We help you Innovate. We help you Grow.</p>
+    </div>
+  </div>
+</div>
+<img src="2.jpg" alt="BITCOIN" width="200" height="200">
+
+
+   <br> <br><br><br><br>
+   
+  </div>
+
+  <div data-role="footer" data-theme="f">
+    <h1>BUSSINESS CONSULTANTS</h1>
+     <p style="margin-left: 250px"><span class="copyright-text">©2017 KOTTACKAL BUSSINESS SOLUTIONS PVT LTD. All Rights Reserved.</span>
+                    <a href="https://www.kottackal.com" title="KOTTACKAL">www.kottackal.com</a></p>
+  </div> 
+</div> 
+
+
+<!--work-->
+
+<div data-role="page" id="work" data-theme="f">
+  <div data-role="panel" id="myPanel" data-theme="b"> 
+    <h2>KOTTACKAL</h2>
+     <ul data-role="listview">
+      <li><a href="#about" >ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#work">WORK</a></li>
+       
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    
+  </div> 
+
+  <div data-role="header" data-theme="f">
+  <a href="#myPanel" class="ui-btn ui-btn-b ui-btn-inline ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">HOME</a>
+    <h1 style="color: white"><a href="#pageone">KOTTACKAL BUSSINESS SOLUTIONS</a></h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#apply" data-icon="home" data-theme="a">APPLY ONLINE</a></li>
+       
+        <li><a href="#contact" data-icon="search" data-theme="a">CONTACT US</a></li>
+      </ul>
+    </div>   
+  </div>
+
+  <div data-role="main" class="ui-content ui-body-f ">
+  
+     <div class="container-fluid bg-grey">
+
+          <div id="work" class="container-fluid text-center">
+  
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      
+      <h4 style="color: orange">IDEATION</h4>
+      <p>
+Analysis of Opportunity</P>
+<P>Definition of Product Strategy</P>
+<P>Product Estimation</p>
+<img style="margin-left: 750px; margin-top: -200px" src="2.jpg" alt="BITCOIN" width="200" height="200">
+    </div>
+    <div class="col-sm-4">
+      
+       <h4 style="color: orange">PROTOTYPING</h4>
+      <p>UI Design</p>
+      <p>Prototype Requirement Analysis</p>
+      <p>Interactive Prototype Development</p>
+      <img style="margin-left: 750px; margin-top: -200px" src="2.jpg" alt="BITCOIN" width="200" height="200">
+    </div>
+    
+  </div>
+  
+  
+
+ 
+
+   <br> 
+   
+  </div>
+
+  <div data-role="footer" data-theme="f">
+    <h1>BUSSINESS CONSULTANTS</h1>
+     <p style="margin-left: 250px"><span class="copyright-text">©2017 KOTTACKAL BUSSINESS SOLUTIONS PVT LTD. All Rights Reserved.</span>
+                    <a href="https://www.kottackal.com" title="KOTTACKAL">www.kottackal.com</a></p>
+  </div> 
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
